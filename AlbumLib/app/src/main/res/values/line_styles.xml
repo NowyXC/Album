@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="line_e1e1e1_v">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#e1e1e1</item>
+    </style>
+
+    <style name="line_999999_v">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#999999</item>
+    </style>
+
+
+    <style name="line_e1e1e1_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#e1e1e1</item>
+    </style>
+
+
+    <style name="line_f7ab58_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#f7ab58</item>
+    </style>
+
+
+    <style name="line_e1e1e1_iv_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:src">#e1e1e1</item>
+    </style>
+
+
+    <style name="line_dotted_e1e1e1_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.8dp</item>
+        <item name="android:background">@drawable/dott_line_e1e1e1</item>
+    </style>
+</resources>

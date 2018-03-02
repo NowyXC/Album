@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MddAlbum</string>
+    <string name="album_all_images">全部图片</string>
+    <string name="album_all_videos">全部视频</string>
+    <string name="album_all_images_videos">全部</string>
+</resources>

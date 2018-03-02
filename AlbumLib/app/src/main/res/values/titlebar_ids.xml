@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--toolbar的id-->
+    <item name="toolbar" type="id"/>
+    <item name="title_bar_contentView" type="id"/> <!--contentView部分-->
+    <item name="title_bar_IvLeft" type="id"/> <!--左边按钮-->
+    <item name="title_bar_TvTitle" type="id"/> <!--抬头标题-->
+
+    <item name="title_bar_LlRight" type="id"/> <!--右边部分-->
+
+
+
+    <item name="title_bar_TvRight" type="id"/> <!--右边文本-->
+    <item name="title_bar_RlRight_01" type="id"/><!--右边第一个图标按钮区域-->
+    <item name="title_bar_RlRight_02" type="id"/><!--右边第二个图标按钮区域-->
+
+
+
+    <item name="title_bar_IvRight01" type="id"/> <!--右边第一个图标-->
+    <item name="title_bar_TvRightUnRead01" type="id"/> <!--右边第一个图标右上角的未读消息-->
+    <item name="title_bar_IvRight02" type="id"/> <!--右边第二个图标-->
+    <item name="title_bar_TvRightUnRead02" type="id"/> <!--右边第二个图标右上角的未读消息-->
+    <item name="title_bar_TvRightUnReadPoint02" type="id"/> <!--右边第二个图标右上角的未读消息小红点-->
+
+
+    <item name="title_bar_LineBottom" type="id"/> <!--底部分割线-->
+
+
+</resources>

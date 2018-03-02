@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/title_bar_contentView"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height">
+
+    <ImageView
+        android:id="@id/title_bar_IvLeft"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:layout_gravity="center_vertical"
+        android:scaleType="center"
+        android:src="@drawable/durban_ic_back_white" />
+
+    <TextView
+        android:id="@+id/title_bar_TvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/txt_title"
+        android:textSize="@dimen/tb_txt_title" />
+
+    <LinearLayout
+        android:id="@id/title_bar_LlRight"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical"
+        android:layout_toRightOf="@id/title_bar_TvTitle"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/title_bar_TvRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:ellipsize="end"
+            android:gravity="center_vertical|end"
+            android:maxLines="1"
+            android:paddingRight="15dp"
+            android:paddingLeft="0dp"
+            android:textColor="@color/txt_right"
+            android:textSize="@dimen/tb_txt_right"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@id/title_bar_RlRight_01"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@id/title_bar_IvRight01"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@null"
+                android:padding="6dp"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@id/title_bar_TvRightUnRead01"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignRight="@id/title_bar_IvRight01"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/bg_shape_o_red_small"
+                android:gravity="center"
+                android:text="99"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tb_txt_right_unread"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/title_bar_RlRight_02"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@id/title_bar_IvRight02"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@null"
+                android:padding="6dp"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@id/title_bar_TvRightUnRead02"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_alignRight="@id/title_bar_IvRight02"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/bg_shape_c17_red_unread"
+                android:gravity="center"
+                android:minWidth="15dp"
+                android:paddingBottom="1dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="1dp"
+                android:text="9"
+                android:textColor="@android:color/white"
+                android:textSize="11sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@id/title_bar_TvRightUnReadPoint02"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_alignRight="@id/title_bar_IvRight02"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/bg_shape_o_red_small"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tb_txt_right_unread"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@id/title_bar_LineBottom"
+        style="@style/line_e1e1e1_h"
+        android:visibility="gone"
+        android:layout_gravity="bottom"/>
+
+</FrameLayout>

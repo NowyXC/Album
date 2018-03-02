@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nowy.baselib.views.scroll.MaxHeightScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    <com.nowy.baselib.views.grid.GridLayoutList
+        android:id="@+id/album_folder_GlFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</com.nowy.baselib.views.scroll.MaxHeightScrollView>

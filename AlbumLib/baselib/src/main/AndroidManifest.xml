@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.nowy.baselib" >
+
+    <application>
+        <service android:name="com.nowy.baselib.service.UpdateVersionService" />
+    </application>
+</manifest>

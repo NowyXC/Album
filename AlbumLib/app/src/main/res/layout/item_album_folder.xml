@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:background="#FFF"
+    android:layout_height="70dp">
+    <ImageView
+        android:id="@+id/album_folder_IvImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/album_folder_IvChose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/durban_ic_done_white"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/album_folder_TvFolderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toRightOf="@id/album_folder_IvImg"
+        android:layout_toLeftOf="@id/album_folder_IvChose"
+        />
+    <View style="@style/line_e1e1e1_h"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
